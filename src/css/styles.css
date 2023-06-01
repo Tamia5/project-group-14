@@ -20,6 +20,18 @@
 @import url('./explore-chocolate.css');
 
 :root {
+  /* Загальний шрифт */
+  --main-font-family: 'Montserrat', sans-serif;
+
+  /* Загальний колір тексту */ 
+  --main-text-color: #111111;
   
+  /* Загальний колір фону */
+  --main-background-color: #E2E2E2;
 }
 
+body {
+  font-family: var(--main-font-family);
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
