@@ -29,3 +29,9 @@
   /* Загальний колір фону */
   --main-background-color: #E2E2E2;
 }
+
+body {
+  font-family: var(--main-font-family);
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
