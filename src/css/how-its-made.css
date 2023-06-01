@@ -1,0 +1,65 @@
+/* Common styles for How its made section */
+.production-container {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 320px;
+  max-width: 375px;
+}
+@media only screen and (min-width: 768px) {
+  .production-container {
+    padding: 0 77px;
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .production-container {
+    padding: 0 32px;
+    max-width: 1200px;
+  }
+}
+/* How its made title */
+.production-title {
+  margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .production-title {
+    margin-bottom: 50px;
+  }
+}
+.production-highlight {
+  color: #fd9222;
+}
+.production-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  .production-card {
+  }
+}
+/* How its made picture */
+
+/* How its made description */
+.production-process {
+  max-width: 335px;
+  padding: 20px 14px;
+}
+@media only screen and (min-width: 768px) {
+  .production-process {
+    max-width: 614px;
+    padding: 32px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .production-process {
+    max-width: 516px;
+  }
+}
