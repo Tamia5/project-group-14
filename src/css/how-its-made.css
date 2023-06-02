@@ -1,4 +1,18 @@
 /* Common styles for How its made section */
+.production {
+  margin-bottom: 72px;
+}
+@media only screen and (min-width: 768px) {
+  .production {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .production {
+    margin-bottom: 128px;
+  }
+}
 .production-container {
   margin: 0 auto;
   padding: 0 20px;
@@ -41,8 +55,32 @@
   flex-wrap: wrap;
   gap: 20px;
 }
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .production-card {
+  }
+} */
+
+.screenshot-thumb {
+  position: relative;
+}
+.play-btn {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  cursor: pointer;
+}
+.play-item {
+  fill: #f5f4f4;
+}
+
+@media only screen and (min-width: 768px) {
+  .playbutton {
   }
 }
 /* How its made picture */
@@ -62,4 +100,48 @@
   .production-process {
     max-width: 516px;
   }
+}
+.production-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .production-subtitle {
+    margin-bottom: 28px;
+    max-width: 350px;
+  }
+}
+.production-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.production-list-item:not(:last-child) {
+  margin-bottom: 18px;
+}
+@media only screen and (min-width: 1200px) {
+  .production-list-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+.production-list-item {
+  position: relative;
+  margin-left: 16px;
+}
+.production-list-item::before {
+  position: absolute;
+  top: 5px;
+  left: -8px;
+  display: block;
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-color: #4c4c4c;
+  border: 1px solid #eceded;
+  border-radius: 50%;
+  transform: translateX(-100%);
 }
