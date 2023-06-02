@@ -28,4 +28,9 @@
   
   /* Загальний колір фону */
   --main-background-color: #FAFAFA;
+
+  /* Footer */
+    --white-color: #FAFAFA;
+    --orange-color: #FD9222;
+    --dark-purple-color: #1E1823;
 }
