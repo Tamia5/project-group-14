@@ -186,3 +186,16 @@ a {
     width: 100%;
   }
 }
+
+/*----- DESKTOP ------*/
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    max-width: 1166px;
+  }
+
+  .footer-contacts {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 63px;
+  }
+}
