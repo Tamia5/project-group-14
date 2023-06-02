@@ -1,0 +1,121 @@
+
+.section-reviews {
+    padding: 72px;
+}
+@media only screen and (min-width: 768px) {
+    .section {
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .section {
+        padding-bottom: 128px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    min-width: 320px;
+    max-width: 375px;
+}
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+.title-review {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-bottom: 90px;
+}
+
+.different-logo {
+    color: var(--logo-light-color);
+}
+.review-list{
+    position: relative;
+    display: flex;
+    gap: 20px;
+
+    /* display: flex;
+    gap: 28px;
+    text-align: center; */
+}
+.review-item {
+    /* display: flex;
+    flex-wrap: wrap;
+    text-align: center; */
+    position: relative;
+    text-align: center;
+    width: 360px;
+    height: 200px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+    border-radius: 15px;
+    background-color: #FFFFFF;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: ; */
+    padding: 0 24px;
+    
+}
+.review-img {
+    display: inline-block;
+    position: relative;
+    /* margin: auto; */
+    top: -50px;
+}
+.review-info {
+    /* display: inline-block; */
+    margin-top: -32px;
+}
+.review-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+}
+
+.main-review {
+    font-family: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.btn-review {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #FD9222;
+    border-radius: 100px;
+    padding: 14px 40px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 94px;
+    background-color: transparent;
+
+}
+.btn-review:hover,
+.btn-review:focus {
+    color: #FFFFFF;
+    background-color: #FD9222;
+}
