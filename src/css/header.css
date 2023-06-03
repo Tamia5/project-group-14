@@ -79,7 +79,12 @@
   fill: #e2e2e2;
   transition: stroke;
 }
-
+.header-contacts-icon:hover {
+  stroke: #fd9222;
+}
+.header-mobile-contacts svg {
+  stroke: #e2e2e2;
+}
 .header-btn-hamburger {
   padding: 0;
   border: none;
@@ -117,12 +122,16 @@
   top: 0;
   right: 0;
   width: 70%;
+  transform: translateX(100%);
   padding: 24px;
-  display: none;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   height: 100vh;
   z-index: 999;
+  transition: 500ms ease-in-out;
+}
+.is-open {
+  transform: translateX(0%);
 }
 
 @media only screen and (min-width: 758px) {
