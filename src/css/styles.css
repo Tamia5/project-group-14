@@ -23,17 +23,17 @@
   /* Загальний шрифт */
   --main-font-family: 'Montserrat', sans-serif;
 
-  /* Загальний колір тексту */ 
+  /* Загальний колір тексту */
   --main-text-color: #111111;
-  
+
   /* Загальний колір фону */
-  --main-background-color: #FAFAFA;
+  --main-background-color: #fafafa;
 
   /*Reviews section */
-  --logo-light-color: #FD9222;
+  --logo-light-color: #fd9222;
 
   /* Footer */
-    --white-color: #FAFAFA;
-    --orange-color: #FD9222;
-    --dark-purple-color: #1E1823;
+  --white-color: #fafafa;
+  --orange-color: #fd9222;
+  --dark-purple-color: #1e1823;
 }
