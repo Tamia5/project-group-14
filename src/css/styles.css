@@ -33,7 +33,19 @@
   --logo-light-color: #fd9222;
 
   /* Footer */
-  --white-color: #fafafa;
-  --orange-color: #fd9222;
-  --dark-purple-color: #1e1823;
+    --white-color: #FAFAFA;
+    --orange-color: #FD9222;
+    --dark-purple-color: #1E1823;
+    
+/* our product */
+    --black: #111111;
+    --dark: #1E1823;
+    --accent: #FD9222;
+    --background: #FAFAFA;
+    --box: #FFFFFF;
+
+    --white-text-color: #FFFFFF;
+
+
+
 }

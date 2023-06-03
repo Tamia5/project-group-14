@@ -1,15 +1,10 @@
-button{
-    cursor: pointer;
-  }
-
-
-  .hero-container{
-    margin-left: 40px;
-    margin-right: 40px;
+.hero-container {
+  padding-top: 381px;
+  padding-bottom: 117px;
   }
   
   .hero-section{
-    width: 1136px;
+  width: 1136px;
   height: 600px;
   left: 32px;
   top: 80px;
@@ -29,20 +24,34 @@ button{
   }
   
   .hero-text{
-   display: flex;
-
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1.21;
+    margin-right: 572px;
+    margin-left: 40px;
   
-  letter-spacing: -0.03em;
+
+  text-align: left;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.03em;
   
-  color: #FFFFFF;
-  margin-right: 572px;
-  margin-left: 40px;
 
-
+    color: #FFFFFF;
   }
+
+  @media only screen and (min-width: 768px) {
+    .hero-text {
+        font-size: 28px;
+        line-height: 1.21;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero-section-title {
+        margin-bottom: 48px;
+    }
+}
+
   
   .orange-btn{
     flex-direction: row;
@@ -60,7 +69,15 @@ button{
     color: #FFFFFF;
     background: #FD9222;
     border-radius: 100px;
+
+    margin-top: 32px;
     
+  }
+
+  .orange-btn:hover,
+  .orange-btn:focus{
+    background-color: #ed0c0c;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .second-btn{
@@ -76,53 +93,109 @@ button{
   align-items: flex-start;
   gap: 14px;
   padding: 0;
+  margin-left: 14px;
  
   
   width: 183px;
   height: 45px;
   
   color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+border: 1px solid #FFFFFF;
   border-radius: 100px;
+  background: none;
   }
   
+
+.scrolling{
+}
+
   .scroll-down{
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 14px;
-
-
-    text-align: left;
-  margin-left: 966px;
-    width: 78px;
-  height: 18px;
-  
-  
+    font-style: normal;
     font-weight: 500;
-  font-size: 14px;
-  line-height: 1.21;
-  letter-spacing: -0.03em;
-  color: #FFFFFF;
-  }
-  
-  
-  .vector-icon{
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    margin-bottom: 50px;
+    margin-right: 92px;
+  text-align: right;
 
-  color: #FD9222;
-  
+    color: #FFFFFF;
+    flex-direction: column;
   }
+  
+  
   .scroll-icon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 14px;
-
+position: relative;
+bottom:85px;
+    color: #FD9222;
     background-color: #FFFFFF;
     fill: currentColor;
    border-radius: 100px;
-   margin-left: 1050px;
+   margin-left: 1070px;
    cursor: pointer;
-  
+   
+
   }
+
+/* HERO SECTION */
+
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section {
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+            url(/hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+    }
+}
+
+@media only screen and (min-width: 429px) {
+    .hero-section {
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+            url(../hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+          background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+                url(../hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+          url(../hero-icons/chocolate-covered-cocoa-powder1@1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+      .hero-section {
+        background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+              url(../hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+      }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+      max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section {
+      padding-top: 188px;
+      padding-bottom: 188px;
+      max-width: 1158px;
+  }
+}
+
+
+
+ 
