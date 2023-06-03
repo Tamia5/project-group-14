@@ -1,14 +1,10 @@
-button{
-    cursor: pointer;
-  }
-
-  .hero-container{
- padding-top: 381px;
- padding-bottom: 117px;
+.hero-container {
+  padding-top: 381px;
+  padding-bottom: 117px;
   }
   
   .hero-section{
-    width: 1136px;
+  width: 1136px;
   height: 600px;
   left: 32px;
   top: 80px;
@@ -28,7 +24,6 @@ button{
   }
   
   .hero-text{
-
     margin-right: 572px;
     margin-left: 40px;
   
