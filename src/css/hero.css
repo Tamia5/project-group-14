@@ -2,12 +2,6 @@ button{
     cursor: pointer;
   }
 
-  img{
-    display: block;
-    width: 100%;
-  }
-
-
   .hero-container{
  padding-top: 381px;
  padding-bottom: 117px;
