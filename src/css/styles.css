@@ -23,6 +23,9 @@
   /* Загальний шрифт */
   --main-font-family: 'Montserrat', sans-serif;
 
+  /* hero section */
+  --pure-white: #ffffff;
+
   /* Загальний колір тексту */ 
   --main-text-color: #111111;
   
