@@ -2,6 +2,11 @@ button{
     cursor: pointer;
   }
 
+  img{
+    display: block;
+    width: 100%;
+  }
+
 
   .hero-container{
  padding-top: 381px;
@@ -43,6 +48,21 @@ button{
 
     color: #FFFFFF;
   }
+
+  @media only screen and (min-width: 768px) {
+    .hero-text {
+        font-size: 28px;
+        line-height: 1.21;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero-section-title {
+        margin-bottom: 48px;
+    }
+}
+
   
   .orange-btn{
     flex-direction: row;
@@ -111,6 +131,7 @@ border: 1px solid #FFFFFF;
   text-align: right;
 
     color: #FFFFFF;
+    flex-direction: column;
   }
   
   
@@ -123,7 +144,69 @@ bottom:85px;
    border-radius: 100px;
    margin-left: 1070px;
    cursor: pointer;
+   
 
   }
+
+/* HERO SECTION */
+
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section {
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+            url(/hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+    }
+}
+
+@media only screen and (min-width: 429px) {
+    .hero-section {
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+            url(../hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+          background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+                url(../hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+          url(../hero-icons/chocolate-covered-cocoa-powder1@1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+      .hero-section {
+        background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+              url(../hero-icons/chocolate-covered-cocoa-powder2@2x.jpg);
+      }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+      max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section {
+      padding-top: 188px;
+      padding-bottom: 188px;
+      max-width: 1158px;
+  }
+}
+
+
 
  
