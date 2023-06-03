@@ -1,6 +1,8 @@
 button{
     cursor: pointer;
   }
+
+
   .hero-container{
     margin-left: 40px;
     margin-right: 40px;
@@ -18,7 +20,7 @@ button{
   
   
   background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
-  url(../img/chocolate-covered-cocoa-powder1@1x.jpg);
+  url(/hero-icons/chocolate-covered-cocoa-powder1@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,31 +29,31 @@ button{
   }
   
   .hero-text{
-  
-    display: flex;
-  
-  
+   display: flex;
+
   font-weight: 500;
   font-size: 28px;
-  line-height: 34px;
+  line-height: 1.21;
   
   letter-spacing: -0.03em;
   
   color: #FFFFFF;
   margin-right: 572px;
   margin-left: 40px;
-  margin-bottom: 381px;
+
+
   }
   
   .orange-btn{
     flex-direction: row;
     align-items: flex-start;
+    margin-left: 40px;
     gap: 14px;
-    
+    padding: 0px;
   
     font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
     width: 144px;
     height: 45px;
     
@@ -64,13 +66,17 @@ button{
   .second-btn{
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.21;
     width: 103px;
   height: 17px;
+
+  box-sizing: border-box;
   
     flex-direction: row;
   align-items: flex-start;
   gap: 14px;
+  padding: 0;
+ 
   
   width: 183px;
   height: 45px;
@@ -81,6 +87,12 @@ button{
   }
   
   .scroll-down{
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+
     text-align: left;
   margin-left: 966px;
     width: 78px;
@@ -89,18 +101,24 @@ button{
   
     font-weight: 500;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.21;
   letter-spacing: -0.03em;
   color: #FFFFFF;
   }
   
   
   .vector-icon{
-  
+
   color: #FD9222;
   
   }
   .scroll-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+
     background-color: #FFFFFF;
     fill: currentColor;
    border-radius: 100px;
