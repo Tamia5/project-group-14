@@ -34,7 +34,7 @@
       rgba(17, 17, 17, 0.4) 100%
     ),
     url(/hero-icons/chocolate-deskop1@1x.jpg);
-
+}
 .hero-container {
   padding-top: 381px;
   padding-bottom: 117px;
@@ -63,9 +63,6 @@
   border-radius: 30px;
 
 }
-
-  
-  }
   
   .hero-text{
     margin-right: 572px;
@@ -78,7 +75,7 @@
     line-height: 34px;
     letter-spacing: -0.03em;
   
-
+}
 
 .hero-title {
   min-height: 428px;
