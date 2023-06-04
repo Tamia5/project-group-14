@@ -93,7 +93,7 @@
   color: var(--pure-white);
   text-align: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .scroll {
@@ -136,7 +136,7 @@
 
 .how-its-made-button:hover,
 .how-its-made-button:focus {
-  color:  var(--orange-color)2;
+  color:  #fd9222;
   background-color: #e2e2e2;
 }
 
