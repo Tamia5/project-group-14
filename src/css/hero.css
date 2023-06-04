@@ -14,11 +14,13 @@
 }
 
 .hero {
-  padding-right: 20px;
+  /* padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 72px;
-  padding-top: 84px;
-
+  padding-top: 84px; */
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
   color: var(--pure-white);
 }
 
@@ -38,14 +40,14 @@
     ),
     url(/hero-icons/chocolate-deskop1@1x.jpg);
 }
-.hero-container {
+/* .hero-container {
   padding-top: 381px;
   padding-bottom: 117px;
-  }
+  } */
   
   .hero-section{
-  width: 1136px;
-  height: 600px;
+  /* width: 1136px;
+  height: 600px; */
   left: 32px;
   top: 80px;
   
