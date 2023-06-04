@@ -1,0 +1,171 @@
+/* ===  TOP-SALLERS STYLE === */
+/** Base style*/
+ 
+/* Basic (Mobile) */
+.section-top-sallers{
+	padding-bottom: 72px;
+}
+.container-top-sallers{
+	min-width: 320px;
+	max-width: 375px; 
+	padding: 0 20px;
+	margin: 0 auto;
+
+	position: relative;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) { 
+	.container-top-sallers{
+		max-width: 768px;
+		padding: 0 32px;
+ 	}
+	.section-top-sallers{
+		padding-bottom: 100px;
+	}
+}
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+	.container-top-sallers{
+		max-width: 1200px;
+		padding-bottom: 72px;
+  	}
+  	.section-top-sallers{
+		padding-bottom: 128px;
+		/* padding-bottom: 200px; */
+	}
+}
+
+/* ====== Text Style ====== */
+
+.section-header-top-sallers{
+	height: auto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	
+	text-align: center;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	
+	color: var(--color-black);
+
+	margin-bottom: 32px;
+}
+.section-header-top-sallers .accent {
+	color: var(--color-orange);
+}
+@media only screen and (min-width: 768px) {
+	.section-header-top-sallers{
+		font-size: 24px;
+		margin-bottom: 50px;
+  }
+}
+
+.top-sallers-txt {
+	width: 306px;
+	height: 90px;
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.29; 
+
+	letter-spacing: -0.02em;
+
+	background-color: var(--main-background-color);
+
+	color: var(--color-black);
+	margin-bottom: 32px;
+}
+@media only screen and (min-width: 768px) {
+	.top-sallers-txt{
+		margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+	.top-sallers-txt{
+		position: absolute;
+
+		width: 407px;
+		height: auto;
+   }
+}
+
+.top-sallers-list{
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 16px;
+}
+@media only screen and (min-width: 768px) {
+	.top-sallers-list{
+	flex-wrap: nowrap;
+  }
+}
+
+.top-sallers-item:last-child{
+	display: none;
+}
+@media only screen and (min-width: 1200px) {
+	.top-sallers-item:last-child{
+		display: block;
+
+  }
+}
+
+.top-sallers-item .pict{
+	border-radius: 15px;
+	margin-bottom: 20px
+}
+@media only screen and (min-width: 768px) {
+	.top-sallers-item .pict{
+		/* width: 344px;  */
+		margin-bottom: 32px;
+  }
+}
+
+.button{
+	display: block;
+	margin: 0px auto;
+
+	min-width: 120px;
+	min-height: 41px;
+	padding: 12px 28px;
+	border-style: none;
+	border-radius: 100px;
+
+	background-color: var(--color-orange);
+	color: var(--color-butn-white);
+
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.21;
+    text-align: center;
+
+	/* Для перехода делаем в основном стиле условия */
+	transition-property: background-color, color;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover,
+.button:focus{
+	background-color: var(--color-butn-hover);
+	color: var(--color-orange);
+}
+
+@media only screen and (min-width: 768px) {
+	.button{
+		position: absolute;
+
+		top: 574px;
+		right: 32px;
+
+		min-width: 162px;
+		min-height: 50px;
+		padding: 14px 40px;
+		font-size: 18px;
+   	}
+}
+
+/* ==== ======== ====*/
