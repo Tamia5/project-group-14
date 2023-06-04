@@ -1,16 +1,16 @@
 
 .section-reviews {
-    padding: 72px;
+    padding: 0 72px;
 }
 @media only screen and (min-width: 768px) {
     .section-reviews {
-        padding-bottom: 100px;
+        padding: 0 100px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .section-reviews {
-        padding-bottom: 128px;
+        padding: 0 128px;
     }
 }
 
