@@ -53,4 +53,8 @@
     --light-gray-color: #fafafa;
 
     --white-text-color: #FFFFFF;
+
+    /* Modal Byu-now -*/
+    --header-idx: 10;
+    --modal-idx: 100;
 }
