@@ -5,7 +5,37 @@
     </h2>
     <div class="production-card">
       <div class="screenshot-thumb">
-        <img
+        <picture>
+          <source
+            srcset="
+              ../howitsmade/mobileimage@1x-335.jpeg 335w,
+              ../howitsmade/mobileimage@2x-670.jpeg 670w
+            "
+            media="(max-width: 767px)"
+            sizes="(min-width: 335px) 335px, 100vw"
+          />
+          <source
+            srcset="
+              ../howitsmade/desktopimage@1x-600.jpg    600w,
+              ../howitsmade/desktopimage@2x-1200.jpeg 1200w
+            "
+            media="(min-width: 1200px)"
+            sizes="(min-width: 600px) 600px, 100vw"
+          />
+          <source
+            srcset="
+              ../howitsmade/tabletimage@1x-614.jpeg   614w,
+              ../howitsmade/tabletimage@2x-1228.jpeg 1228w
+            "
+            media="(min-width: 768px)"
+            sizes="(min-width: 614px) 614px, 100vw"
+          />
+          <img
+            src="../howitsmade/mobileimage@1x-335.jpeg"
+            alt="Chocolate preparation"
+          />
+        </picture>
+        <!-- <img
           srcset="
             ../howitsmade/mobileimage@1x-335.jpeg    335w,
             ../howitsmade/desktopimage@1x-600.jpg    600w,
@@ -21,7 +51,7 @@
           alt="Chocolate preparation"
           width="100%"
           height="100%"
-        />
+        /> -->
         <span class="play-btn">
           <svg class="play-item" width="35" height="35">
             <use href="/howitsmade/icon/play1.svg#icon-playbtn"></use>
