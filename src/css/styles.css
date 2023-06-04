@@ -18,6 +18,7 @@
 @import url('./buy-now.css');
 @import url('./modal-review.css');
 @import url('./explore-chocolate.css');
+/* @import url('./modal-sub.css'); */
 
 :root {
   /* Загальний шрифт */
@@ -33,24 +34,24 @@
   --logo-light-color: #fd9222;
 
   /* Footer */
-    --white-color: #FAFAFA;
-    --orange-color: #FD9222;
-    --dark-purple-color: #1E1823;
-    
-/* our product */
-    --black: #111111;
-    --dark: #1E1823;
-    --accent: #FD9222;
-    --background: #FAFAFA;
-    --box: #FFFFFF;
+  --white-color: #fafafa;
+  --orange-color: #fd9222;
+  --dark-purple-color: #1e1823;
 
-    /* Hero section */
-    --pure-white: #FFFFFF;
+  /* our product */
+  --black: #111111;
+  --dark: #1e1823;
+  --accent: #fd9222;
+  --background: #fafafa;
+  --box: #ffffff;
 
-    /*unique-components*/
-    --white-text-color: #ffffff;
-    --white-background-color: #ffffff;
-    --light-gray-color: #fafafa;
+  /* Hero section */
+  --pure-white: #ffffff;
 
-    --white-text-color: #FFFFFF;
+  /*unique-components*/
+  --white-text-color: #ffffff;
+  --white-background-color: #ffffff;
+  --light-gray-color: #fafafa;
+
+  --white-text-color: #ffffff;
 }
