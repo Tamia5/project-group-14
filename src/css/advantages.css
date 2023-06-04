@@ -3,6 +3,14 @@
     background-color: var(--dark-purple-color);
 }
 
+
+@media only screen and (min-width:1200px) {
+
+    .advantages-section {
+        width: 1200px;
+    }
+}
+
 .advantages-conteiner {
     width: 100%;
     padding-top: 20px;
@@ -19,7 +27,7 @@
     .advantages-conteiner {
         width: 704px;
         padding: 50px 32px;
-        margin: 0 auto;
+        margin: 0px;
     }
 }
 
@@ -27,7 +35,7 @@
     .advantages-conteiner {
         width: 1136px;
         padding: 50px;
-        margin: auto;
+        
     }
 }
 
@@ -69,7 +77,7 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 22px;
     fill: rgba(253, 146, 34, 1);
-    padding: 15px;
+    padding: 7px;
 }
 
 
