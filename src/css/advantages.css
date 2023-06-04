@@ -1,6 +1,6 @@
 .advantages-section {
     width: 100%;
-    background-color: rgba(30, 24, 35, 1);
+    background-color: var(--dark-purple-color);
 }
 
 .advantages-conteiner {
@@ -65,17 +65,15 @@
 }
 
 .advantages-icon {
-    border-radius: 50%;
+    border-radius: 365px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 22px;
     fill: rgba(253, 146, 34, 1);
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 
 .advantages-sub-title {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.4;
@@ -84,8 +82,6 @@
 }
 
 .advantages-description {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;

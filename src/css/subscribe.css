@@ -4,12 +4,12 @@
     height: 370px;
     left: 0px;
     top: 4414px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../subscribe-images/Desktop.jpg);
-
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe-images/Desktop.jpg);
+    margin: 0 auto;
 }
 
 .container-section {
-    padding-top: 100px;
+    padding-top: 85px;
 }
 
 .title-text {
@@ -52,4 +52,127 @@
     margin: 0 auto;
     cursor: pointer;
     border: none;
+}
+/*----- MOBILE -----*/
+@media screen and (min-width: 375px) {
+    .section-subscribe {
+        /* position: absolute; */
+        width: 375px;
+        height: 370px;
+        left: 0px;
+        top: 6430px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe-images/Mobile.jpg );
+        margin: 0 auto;
+    }
+
+    .title-text {
+        width: 291px;
+        height: 48px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 24px;
+    }
+    
+    .main-text {
+        width: 326px;
+        height: 108px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        margin: 0 auto;
+        color: white;
+        margin-bottom: 24px;
+
+    }
+}
+
+/*----- TABLET ----*/
+@media screen and (min-width: 768px) {
+    .section-subscribe {
+        /* position: absolute; */
+        width: 768px;
+        height: 370px;
+        left: 0px;
+        top: 5486px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe-images/Tablet.jpg);
+        margin: 0 auto;
+    }
+
+    .title-text {
+        width: 378px;
+        height: 56px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 24px;
+    }
+
+    .main-text {
+        width: 467px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        margin: 0 auto;
+        color: white;
+        margin-bottom: 24px;
+
+    }
+}
+
+/*----- DESKTOP ------*/
+@media screen and (min-width: 1200px) {
+    .section-subscribe {
+        /* position: absolute; */
+        width: 1200px;
+        height: 370px;
+        left: 0px;
+        top: 4414px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/subscribe-images/Desktop.jpg);
+        margin: 0 auto;
+    }
+
+    .title-text {
+        width: 378px;
+        height: 56px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 24px;
+    }
+
+    .main-text {
+        width: 467px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        margin: 0 auto;
+        color: white;
+        margin-bottom: 24px;
+
+    }
+
 }
