@@ -19,7 +19,7 @@
   padding-bottom: 72px;
   padding-top: 84px;
 
-  color: #ffffff;
+  color: var(--pure-white);
 }
 
 .hero-container {

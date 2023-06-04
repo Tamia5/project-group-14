@@ -44,8 +44,13 @@
     --background: #FAFAFA;
     --box: #FFFFFF;
 
+    /* Hero section */
+    --pure-white: #FFFFFF;
+
+    /*unique-components*/
+    --white-text-color: #ffffff;
+    --white-background-color: #ffffff;
+    --light-gray-color: #fafafa;
+
     --white-text-color: #FFFFFF;
-
-
-
 }
