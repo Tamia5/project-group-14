@@ -49,7 +49,13 @@
     margin: 0 auto;
     cursor: pointer;
     border: none;
+    transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
 }
+.subscribe-button:hover,
+.subscribe-button:focus{
+    background-color: #FCF1E0;
+}
+
 /*----- MOBILE -----*/
 @media screen and (min-width: 375px) {
     .section-subscribe {
