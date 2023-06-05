@@ -55,91 +55,35 @@
   flex-wrap: wrap;
   gap: 20px;
 }
-/* @media only screen and (min-width: 1200px) {
-  .production-card {
-  }
-} */
 
 .screenshot-thumb {
   position: relative;
   width: 335px;
   height: 500px;
 
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(../howitsmade/mobileimage@1x-335.jpeg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 15px;
   cursor: pointer;
+  overflow: hidden;
+  object-fit: contain;
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .screenshot-thumb {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url(../howitsmade/mobileimage@2x-670.jpeg);
-  }
+.screenshot-thumb > img {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 @media only screen and (min-width: 768px) {
   .screenshot-thumb {
     width: 614px;
     height: 400px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url(../howitsmade/tabletimage@1x-614.jpeg);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .screenshot-thumb {
-      background-image: linear-gradient(
-          0deg,
-          rgba(0, 0, 0, 0.4),
-          rgba(0, 0, 0, 0.4)
-        ),
-        url(../howitsmade/tabletimage@2x-1228.jpeg);
-    }
   }
 }
 @media only screen and (min-width: 1200px) {
   .screenshot-thumb {
     width: 600px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url(../howitsmade/desktopimage@1x-600.jpg);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .screenshot-thumb {
-      background-image: linear-gradient(
-          0deg,
-          rgba(0, 0, 0, 0.4),
-          rgba(0, 0, 0, 0.4)
-        ),
-        url(../howitsmade/desktopimage@2x-1200.jpeg);
-    }
   }
 }
 
 .play-btn {
-  border: 1px solid #ffffff;
-  border-radius: 50%;
   width: 35px;
   height: 35px;
   background-color: transparent;
@@ -157,16 +101,11 @@
 }
 .play-item {
   position: absolute;
+  width: 100%;
+  height: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  fill: #f5f4f4;
-}
-@media only screen and (min-width: 768px) {
-  .play-item {
-    width: 20px;
-    height: 21px;
-  }
 }
 
 /* How its made picture */
@@ -231,3 +170,21 @@
   border-radius: 50%;
   transform: translateX(-100%);
 }
+
+/* <!-- <img
+          srcset="
+            ../howitsmade/mobileimage@1x-335.jpeg    335w,
+            ../howitsmade/desktopimage@1x-600.jpg    600w,
+            ../howitsmade/tabletimage@1x-614.jpeg    614w,
+            ../howitsmade/mobileimage@2x-670.jpeg    670w,
+            ../howitsmade/desktopimage@2x-1200.jpeg 1200w,
+            ../howitsmade/tabletimage@2x-1228.jpeg  1228w
+          "
+          sizes="(min-width: 1200px) 600px,   
+        (min-width: 768px) 614px,
+                    (min-width: 375px) 335px, 100vw "
+          src="../howitsmade/mobileimage@1x-335.jpeg"
+          alt="Choc preparation"
+          width="100%"
+          height="100%"
+        /> --> */

@@ -1,0 +1,160 @@
+/*  Header */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header-nav,
+.header-contacts {
+  display: none;
+}
+
+.header-logo {
+  color: #111111;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.header-logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 24px;
+}
+.header-nav-mobile-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header-nav-link {
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #fd9222;
+}
+
+.header-contacts-list {
+  display: flex;
+
+  width: 100%;
+  gap: 18px;
+}
+
+.header-contacts-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header-contacts-icon {
+  display: block;
+  stroke: #111111;
+  fill: #e2e2e2;
+  transition: stroke;
+}
+.header-contacts-icon:hover {
+  stroke: #fd9222;
+}
+.header-mobile-contacts svg {
+  stroke: #e2e2e2;
+}
+.header-btn-hamburger {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.header-btn-hamburger-svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  stroke: #111111;
+}
+
+.header-btn-close {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+}
+.header-btn-close-svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  stroke: #111111;
+}
+.header-mobile-nav {
+  padding-left: 16px;
+  padding-top: 90px;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+}
+.header-mobile-menu {
+  background-color: #1e1823;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  transform: translateX(100%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  z-index: 999;
+  transition: 500ms ease-in-out;
+}
+.is-open {
+  transform: translateX(0%);
+}
+
+@media only screen and (min-width: 758px) {
+  .header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .header-nav {
+    display: flex;
+  }
+  .header-nav-link {
+    color: #111111;
+  }
+  .header-contacts {
+    display: block;
+  }
+  .header-container {
+    max-width: 1136px;
+  }
+  .header-btn-hamburger {
+    display: none;
+  }
+}

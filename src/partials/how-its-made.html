@@ -1,13 +1,45 @@
-<section class="production">
+<!-- #how-its-made to be added to button in hero -->
+<section class="production" id="how-its-made">
   <div class="production-container">
     <h2 class="production-title">
       how it's <span class="production-highlight">made?</span>
     </h2>
     <div class="production-card">
       <div class="screenshot-thumb">
+        <picture>
+          <source
+            srcset="
+              /images/howitsmade/mobileimage@1x-335.jpeg 335w,
+              /images/howitsmade/mobileimage@2x-670.jpeg 670w
+            "
+            media="(max-width: 767px)"
+            sizes="(min-width: 335px) 335px, 100vw"
+          />
+          <source
+            srcset="
+              /images/howitsmade/desktopimage@1x-600.jpg    600w,
+              /images/howitsmade/desktopimage@2x-1200.jpeg 1200w
+            "
+            media="(min-width: 1200px)"
+            sizes="(min-width: 600px) 600px, 100vw"
+          />
+          <source
+            srcset="
+              /images/howitsmade/tabletimage@1x-614.jpeg   614w,
+              /images/howitsmade/tabletimage@2x-1228.jpeg 1228w
+            "
+            media="(min-width: 768px)"
+            sizes="(min-width: 614px) 614px, 100vw"
+          />
+          <img
+            src="/images/howitsmade/mobileimage@1x-335.jpeg"
+            alt="Chocolate preparation"
+          />
+        </picture>
+
         <span class="play-btn">
-          <svg class="play-item" width="14" height="15">
-            <use href="/howitsmade/play.svg#icon-play"></use>
+          <svg class="play-item" width="35" height="35">
+            <use href="/images/all-icons.svg#icon-playbtn"></use>
           </svg>
         </span>
       </div>
