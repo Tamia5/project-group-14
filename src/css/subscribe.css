@@ -1,5 +1,4 @@
 .section-subscribe {
-    /* position: absolute; */
     width: 1200px;
     height: 370px;
     left: 0px;
@@ -8,7 +7,10 @@
     margin: 0 auto;
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 .title-text {
     width: 378px;
