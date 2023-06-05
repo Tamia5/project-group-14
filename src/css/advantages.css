@@ -17,36 +17,10 @@
     .advantages-section {
         width: 1200px;
         margin: 0 auto;
-        /* padding: 50px; */
+        margin-bottom: 128px;
     }
 }
 
-/* .advantages-conteiner {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-@media only screen and (min-width:375px) {
-    .advantages-conteiner {
-        width: 375px;
-        padding: 20px;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    .advantages-conteiner {
-        width: 768px;
-        padding: 50px 32px;
-    }
-}
-
-@media only screen and (min-width:1200px) {
-    .advantages-conteiner {
-        width: 1200px;
-
-    }
-} */
 
 .advantage-list {
     display: flex;
