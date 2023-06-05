@@ -1,0 +1,294 @@
+/* modal */
+.backdrop-rvws {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.backdrop-rvws.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal-rvws {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  min-width: 311px;
+  max-width: 375px;
+  height: 95%;
+  max-height: 471px;
+  background-color: var(--main-background-color);
+  padding: 32px 24px;
+  border-radius: 15px;
+  overflow: scroll;
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws {
+    min-width: 517px;
+    min-height: 628px;
+    height: auto;
+    max-height: min-content;
+    max-width: min-content;
+    overflow: unset;
+    padding: 40px;
+  }
+}
+
+.modal-rvws .btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  background-color: var(--main-background-color);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws .btn {
+    top: 31px;
+    right: 31px;
+    width: 28px;
+    height: 28px;
+  }
+  .modal-rvws .icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.modal-rvws .icon {
+  fill: currentColor;
+}
+
+.modal-rvws .btn:hover,
+.modal-rvws .btn:focus {
+  background-color: #fcf1e0;
+  color: var(--orange-color);
+}
+
+.modal-rvws .paragraf {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.modal-rvws .text-tab {
+  display: none;
+}
+@media only screen and (min-width: 767px) {
+  .modal-rvws .paragraf {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .modal-rvws .text-mob {
+    display: none;
+  }
+
+  .modal-rvws .text-tab {
+    display: block;
+  }
+}
+
+.modal-rvws .text-color {
+  color: var(--orange-color);
+}
+
+/* FORM*/
+.modal-rvws .call-back {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+@media only screen and (min-width: 767px) {
+  .call-back {
+    margin-top: 40px;
+  }
+}
+
+.modal-rvws .form-field {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+@media only screen and (min-width: 767px) {
+  .modal-rvws .form-field {
+    font-size: 18px;
+  }
+}
+
+.modal-rvws .form-field + .form-field {
+  margin-top: 18px;
+}
+
+.modal-rvws .form-input,
+.modal-rvws .form-input-phone {
+  width: 100%;
+  height: 45px;
+
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  background-color: var(--main-background-color);
+  outline: none;
+  padding: 0 0 0 18px;
+  box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws .form-input,
+  .modal-rvws .form-input-phone {
+    height: 66px;
+  }
+}
+
+.modal-rvws .form-input-phone {
+  padding: 0 0 0 90px;
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws .form-input-phone {
+    padding: 0 0 0 135px;
+  }
+}
+
+.modal-rvws .form-input-cmd {
+  width: 100%;
+
+  resize: none;
+  outline: none;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: var(--main-background-color);
+  padding: 14px 0 0 18px;
+}
+@media only screen and (min-width: 767px) {
+  .modal-rvws .form-input-cmd {
+    height: 137px;
+  }
+}
+
+.modal-rvws .form-name,
+.modal-rvws .form-name-cmd,
+.modal-rvws .form-name-phone {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.modal-rvws .form-name-cmd {
+  top: 20%;
+}
+
+.modal-rvws .form-name-phone {
+  left: 106px;
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws .form-name-phone {
+    left: 163px;
+  }
+}
+
+.modal-rvws .form-field:focus-within .form-name,
+.modal-rvws .form-input:not(:placeholder-shown) + .form-name,
+.modal-rvws .form-field:focus-within .form-name-phone,
+.modal-rvws .form-input-phone:not(:placeholder-shown) + .form-name-phone {
+  transform: translateY(-180%);
+  background-color: var(--main-background-color);
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws .form-field:focus-within .form-name,
+  .modal-rvws .form-input:not(:placeholder-shown) + .form-name,
+  .modal-rvws .form-field:focus-within .form-name-phone,
+  .modal-rvws .form-input-phone:not(:placeholder-shown) + .form-name-phone {
+    transform: translateY(-200%);
+  }
+}
+
+.modal-rvws .form-field:focus-within .form-name-cmd,
+.modal-rvws .form-input-cmd:not(:placeholder-shown) + .form-name-cmd {
+  transform: translateY(-150%);
+  background-color: var(--main-background-color);
+}
+
+.modal-rvws .icon-flag {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+}
+.modal-rvws .icon-number {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws .icon-flag {
+    width: 32px;
+    height: 32px;
+  }
+  .modal-rvws .icon-number {
+    width: 43px;
+    height: 22px;
+    left: 74px;
+  }
+}
+
+/* button */
+.modal-rvws .btn-send {
+  margin-top: 18px;
+  display: block;
+  width: 93px;
+  height: 41px;
+
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  border-radius: 100px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-rvws .btn-send {
+    width: 177px;
+    height: 45px;
+  }
+}
+
+.modal-rvws .btn-send:hover,
+.modal-rvws .btn-send:focus {
+  background-color: #fcf1e0;
+  color: var(--orange-color);
+}
