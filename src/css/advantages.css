@@ -1,35 +1,26 @@
 .advantages-section {
-    width: 100%;
+    width: 375px;
     background-color: var(--dark-purple-color);
-}
-
-.advantages-conteiner {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-@media only screen and (min-width:375) {
-    .advantages-conteiner {
-        width: 335px;
-    }
+    margin: 0px auto;
+    padding: 20px;
 }
 
 @media only screen and (min-width:768px) {
-    .advantages-conteiner {
-        width: 704px;
+    .advantages-section {
+        width: 768px;
         padding: 50px 32px;
-        margin: 0 auto;
     }
 }
 
 @media only screen and (min-width:1200px) {
-    .advantages-conteiner {
-        width: 1136px;
-        padding: 50px;
-        margin: auto;
+
+    .advantages-section {
+        width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 128px;
     }
 }
+
 
 .advantage-list {
     display: flex;
@@ -53,23 +44,64 @@
 @media only screen and (min-width:1200px) {
     .advantage-list {
         justify-content: center;
+        column-gap: 70px;
     }
 }
 
 
 .advanatage-content {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
 }
 
-.advantages-icon {
-    border-radius: 365px;
+@media only screen and (min-width:1200px) {
+    .advanatage-content:not(:last-child):after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+
+    width: 124px;
+    height: 0px;
+
     border: 1px solid rgba(255, 255, 255, 0.5);
+}
+}
+
+.content-conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 28px;
+}
+
+@media only screen and (min-width:1200px) {
+    .content-conteiner {
+        position: relative;
+        padding-right: 18px;
+    }
+}
+
+.svg-bg {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
     margin-bottom: 22px;
+    padding: 7px;
+}
+
+.advantages-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     fill: rgba(253, 146, 34, 1);
-    /* padding: 15px; */
 }
 
 

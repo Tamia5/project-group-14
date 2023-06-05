@@ -1,0 +1,221 @@
+.backdrop-sub {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.backdrop-sub.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal-sub {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 311px;
+  height: 350px;
+  background-color: var(--main-background-color);
+  border-radius: 15px;
+}
+@media only screen and (min-width: 767px) {
+  .modal-sub {
+    width: 538px;
+    height: 412px;
+  }
+}
+
+.modal-sub .wrapper {
+  width: 100%;
+  height: 169px;
+  background-image: url(/images/modal-subscribe/sub-mob1x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .modal-sub .wrapper {
+    background-image: url(/images/modal-subscribe/sub-mob2x.png);
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-sub .wrapper {
+    height: 196px;
+    background-image: url(/images/modal-subscribe/sub-tab1x.png);
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .modal-sub .wrapper {
+      background-image: url(/images/modal-subscribe/sub-tab2x.png);
+    }
+  }
+}
+
+.modal-sub .btn {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  background-color: transparent;
+  color: var(--white-color);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 767px) {
+  .modal-sub .btn {
+    top: 24px;
+    right: 24px;
+    width: 28px;
+    height: 28px;
+  }
+  .modal-sub .icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.modal-sub .icon {
+  fill: currentColor;
+}
+.modal-sub .sub {
+  padding: 32px 24px;
+}
+@media only screen and (min-width: 767px) {
+  .modal-sub .sub {
+    padding: 40px;
+  }
+}
+
+.sub .paragraf {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 767px) {
+  .sub .paragraf {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+.sub .text {
+  color: var(--orange-color);
+}
+.sub .call-back {
+  margin-top: 24px;
+  position: relative;
+}
+
+@media only screen and (min-width: 767px) {
+  .sub .call-back {
+    margin-top: 28px;
+  }
+}
+
+.sub .form-field {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+@media only screen and (min-width: 767px) {
+  .sub .form-field {
+    font-size: 18px;
+  }
+}
+
+.sub .form-input {
+  width: 100%;
+  height: 45px;
+
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 25px;
+  background-color: var(--main-background-color);
+  outline: none;
+  padding: 0 0 0 18px;
+  box-shadow: 1.5px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 767px) {
+  .sub .form-input {
+    height: 52px;
+    width: 313px;
+  }
+}
+
+.sub .form-name {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.sub .form-field:focus-within .form-name,
+.sub .form-input:not(:placeholder-shown) + .form-name {
+  transform: translateY(-180%);
+  background-color: var(--main-background-color);
+}
+
+.sub .btn-send {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+
+  display: block;
+  width: 100px;
+  height: 45px;
+
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  border-radius: 100px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+@media only screen and (min-width: 767px) {
+  .sub .btn-send {
+    width: 137px;
+    height: 52px;
+  }
+}
+
+.sub .btn-send:hover,
+.sub .btn-send:focus {
+  background-color: #fcf1e0;
+  color: var(--orange-color);
+}

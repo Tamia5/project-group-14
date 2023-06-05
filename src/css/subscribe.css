@@ -1,6 +1,5 @@
 .section-subscribe {
-    /* position: absolute; */
-    width: 1200px;
+    width: 375px;
     height: 370px;
     left: 0px;
     top: 4414px;
@@ -8,8 +7,8 @@
     margin: 0 auto;
 }
 
-.container-section {
-    padding-top: 85px;
+.container-section{
+    padding-top: 72px;
 }
 
 .title-text {
@@ -52,7 +51,13 @@
     margin: 0 auto;
     cursor: pointer;
     border: none;
+    transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
 }
+.subscribe-button:hover,
+.subscribe-button:focus{
+    background-color: #FCF1E0;
+}
+
 /*----- MOBILE -----*/
 @media screen and (min-width: 375px) {
     .section-subscribe {
