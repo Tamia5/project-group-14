@@ -13,11 +13,11 @@
 }
 
 .hero {
-  width: 375px;
+  width: 1200px;
   margin: 0 auto;
-  /* padding-top: 84px; */
-  /* margin: auto; */
-  /* color: var(--pure-white); */
+  padding-top: 84px;
+  margin: auto;
+  color: var(--pure-white);
 }
 
 .hero-container {
@@ -55,11 +55,10 @@
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 112px;
-
 }
 
 .buy-button {
-  /* min-width: 180px; */
+  min-width: 180px;
   padding: 12px 28px;
   
 
@@ -213,7 +212,7 @@
     padding-right: 32px;
     padding-left: 32px;
     margin-bottom: 80px;
-    /* padding-top: 72px; */
+    padding-top: 72px;
     width: 768px;
   }
   .hero-container {
@@ -235,7 +234,7 @@
   .hero-title {
     max-width: 484px;
     /* padding-top: 670px; */
-    margin-top: 250px;
+
     font-size: 28px;
   }
 
@@ -277,7 +276,7 @@
   .hero {
     padding-right: 44px;
     padding-left: 20px;
-    /* padding-top: 72px; */
+    padding-top: 72px;
     width: 1200px;
   }
   .hero-container {
@@ -295,7 +294,6 @@
   }
   .hero-title {
     padding-top: 340px;
-    margin-top: 0;
  
   }
   .top-btn {
@@ -346,10 +344,12 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url(../images/hero-icons/chocolate-desktop1@2x.jpg);
+        url(/hero-icons/chocolate-desktop1@2x.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
   }
 }
+
+ 
