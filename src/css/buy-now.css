@@ -68,8 +68,7 @@
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #fafafa;
-  fill:border: 1.5px solid;
-  border-image-source: linear-gradient(181.96deg, #F16529 1.64%, #D44528 98.35%);
+  fill: #f16529;
 }
 @media only screen and (min-width: 768px) {
   .modal-close-btn {
