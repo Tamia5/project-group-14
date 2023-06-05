@@ -7,7 +7,9 @@
     margin: 0 auto;
 }
 
-
+.comtainer-section{
+    padding-top: 72px;
+}
 
 .title-text {
     width: 378px;
