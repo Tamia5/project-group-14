@@ -1,46 +1,5 @@
 <!--Modal window (Anatolii)-->
 
-<!-- До моєї модалки потрібно додати js файл.
-
-  (() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open]"),
-    closeModalBtn: document.querySelector("[data-modal-close]"),
-    modal: document.querySelector("[data-modal]"),
-  };
-
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle("is-hidden");
-  }
-})();
-
--->
-
-<!-- Input maska js
-
-const selector = document.querySelector('input[type="tel"]');
-
-console.log(selector);
-
-const im = new Inputmask('+38 (099) 999-99-99');
-im.mask(selector);
-
--->
-<!-- Форма для кнопки
-
-  document.querySelector('[name="subscribe-form"]').addEventListener('submit', event => {
-    event.preventDefault();
-});
-
- -->
-<!-- Імпровізована кнопка -->
-<button class="button" type="button" data-modal-open="btn">
-  Order Service
-</button>
-
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="modal-close-btn" type="button" data-modal-close="btn">
