@@ -7,6 +7,9 @@
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   z-index: 1000;
+
+  transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop-rvws.is-hidden {
@@ -29,6 +32,7 @@
   padding: 32px 24px;
   border-radius: 15px;
   overflow: scroll;
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 767px) {
@@ -43,7 +47,7 @@
   }
 }
 
-/* .modal-rvws.btn {
+.modal-rvws .btn {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -58,42 +62,27 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-} */
-
-/* Зміни */
-.btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-
-  background-color: var(--main-background-color);
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 767px) {
-  .modal-rvws.btn {
+  .modal-rvws .btn {
     top: 31px;
     right: 31px;
     width: 28px;
     height: 28px;
   }
-  .modal-rvws.icon {
+  .modal-rvws .icon {
     width: 14px;
     height: 14px;
   }
 }
 
-/* .modal-rvws.icon {
+.modal-rvws .icon {
   fill: currentColor;
-} */
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .icon {
   width: 14px;
@@ -101,8 +90,8 @@
   fill: #111111;
 }
 
-.modal-rvws.btn:hover,
-.modal-rvws.btn:focus {
+.modal-rvws .btn:hover,
+.modal-rvws .btn:focus {
   background-color: #fcf1e0;
   color: var(--orange-color);
 }
@@ -224,6 +213,9 @@
   left: 18px;
   transform: translateY(-50%);
   pointer-events: none;
+
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-rvws .form-name-cmd {
@@ -259,7 +251,7 @@
 
 .modal-rvws .form-field:focus-within .form-name-cmd,
 .modal-rvws .form-input-cmd:not(:placeholder-shown) + .form-name-cmd {
-  transform: translateY(-150%);
+  transform: translateY(-175%);
   background-color: var(--main-background-color);
 }
 
@@ -303,6 +295,8 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.2;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 767px) {
