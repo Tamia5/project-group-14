@@ -54,6 +54,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover,
@@ -77,7 +78,7 @@
   display: block;
   stroke: #111111;
   fill: #e2e2e2;
-  transition: stroke;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-icon:hover {
   stroke: #fd9222;
