@@ -30,7 +30,7 @@
 @media screen and (min-width: 768px) {
   .container-review {
     min-width: 768px;
-    padding: 36px 32px;
+    padding: 0px 32px;
   }
 }
 
@@ -103,7 +103,8 @@
   display: inline-block;
   position: relative;
   /* margin: auto; */
-  top: -50px;
+  top: -42px;
+  border-radius: 50%;
 }
 
 .review-info {
