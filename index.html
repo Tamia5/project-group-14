@@ -13,7 +13,7 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous">
     
-    <script type="module" crossorigin src="/project-group-14/assets/index-bdcfbbdd.js"></script>
+    <script type="module" crossorigin src="/project-group-14/assets/index-8e9d78ab.js"></script>
     <link rel="stylesheet" href="/project-group-14/assets/index-2560702b.css">
   </head>
   <body>
@@ -157,7 +157,9 @@
       </h2>
       <ul class="hero-list">
         <li class="hero-item">
-          <button class="buy-button" type="button">Buy now</button>
+          <button class="buy-button" type="button" data-modal-open-buy>
+            Buy now
+          </button>
         </li>
         <li class="hero-item">
           <a href="#how-its-made" class="how-its-made-button">
@@ -939,9 +941,14 @@
       <!--Anatolii -->
       <!--Modal window (Anatolii)-->
 
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" data-modal-buy data-modal>
   <div class="modal">
-    <button class="modal-close-btn" type="button" data-modal-close="btn">
+    <button
+      class="modal-close-btn"
+      type="button"
+      data-modal-close-buy,
+      data-modal-close="btn"
+    >
       <svg class="modal-close-icon" width="14" height="14">
         <use href="/project-group-14/assets/all-icons-a4a2004b.svg#close-icon"></use>
       </svg>
