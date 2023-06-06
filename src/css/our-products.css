@@ -53,22 +53,6 @@ section our product ==================== */
   overflow: hidden;
 }
 
-<<<<<<< Updated upstream
-@media screen and (min-width: 768px) {
-  .prod-thumb {
-    overflow: visible;
-  }
-  
-}
-
-@media screen and (min-width: 1200px) {
-  .prod-thumb {
-    overflow: hidden;
-  }
-  
-}
-=======
->>>>>>> Stashed changes
 
 .orange-txt {
 	color: var(--accent);
@@ -105,48 +89,23 @@ section our product ==================== */
 	margin-bottom: 18px;
 }
 
-<<<<<<< Updated upstream
-.prod-price-btn {
-=======
 .prod-price {
 	align-self: center;
->>>>>>> Stashed changes
 	width: 94px;
 
 	padding-top: 8px;
 	padding-bottom: 8px;
-<<<<<<< Updated upstream
-=======
 	margin: 0 auto;
->>>>>>> Stashed changes
 
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 1.2;
 	color: var(--black);
 	text-transform: uppercase;
-<<<<<<< Updated upstream
-	text-align: center;
-=======
->>>>>>> Stashed changes
 
 	background: var(--background);
 	border: 1px solid rgba(17, 17, 17, 0.1);
 	border-radius: 100px;
-<<<<<<< Updated upstream
-
-	cursor: pointer;
-
-	transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.prod-price-btn:hover {
-	background: #fcf1e0;
-	border-color: rgba(253, 146, 34, 0.1);
-	color: var(--accent);
-=======
->>>>>>> Stashed changes
 }
 
 /* ------------------slider--------------- */
@@ -203,8 +162,4 @@ section our product ==================== */
 	width: 28px;
 	background-color: var(--accent);
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
