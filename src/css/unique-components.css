@@ -133,11 +133,17 @@
   position: relative;
   overflow: hidden;
   border-radius: 15px;
-  width: 335px;
+  width: 300px;
   padding-top: 28px;
   padding-left: 28px;
-  padding-right: 55px;
+  padding-right: 28px;
   padding-bottom: 28px;
+}
+
+@media only screen and (min-width: 375px) {
+  .unique-components-list-item {
+    width: 335px;
+  }
 }
 
 /* Tablet  style */
