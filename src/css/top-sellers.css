@@ -116,12 +116,20 @@
 
 .top-sallers-item .pict{
 	border-radius: 15px;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+
+	width: 335px;
+	height: 464px;
 }
 @media only screen and (min-width: 768px) {
 	.top-sallers-item .pict{
-		/* width: 344px;  */
+		width: 344px;  
 		margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+	.top-sallers-item .pict{
+		width: 368px;  
   }
 }
 
