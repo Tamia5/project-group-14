@@ -1,4 +1,8 @@
 .advantages-section {
+    padding-bottom: 72px;
+}
+
+.advantage-container {
     width: 375px;
     background-color: var(--dark-purple-color);
     margin: 0px auto;
@@ -6,18 +10,25 @@
 }
 
 @media only screen and (min-width:768px) {
-    .advantages-section {
+    .advantage-container {
         width: 768px;
-        padding: 100px 32px;
+        padding: 50px 32px;
+    }
+    .advantages-section {
+        padding-bottom: 100px;
     }
 }
 
 @media only screen and (min-width:1200px) {
 
-    .advantages-section {
+    .advantage-container {
         width: 1200px;
         margin: 0 auto;
+        
         /* margin-bottom: 128px; */
+    }
+    .advantages-section {
+        padding-bottom: 128px;
     }
 }
 
