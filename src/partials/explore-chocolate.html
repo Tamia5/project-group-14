@@ -1,21 +1,31 @@
-<div class="backdrop-sub is-hidden" modal-sub>
-
-    <div class="modal-sub">
-
-        <button class="btn" type="button" modal-sub-close><svg class="icon" width="12" height="12">
-                <use href="/images/all-icons.svg#icon-close"></use>
-            </svg></button>
-        <div class="wrapper"></div>
-        <div class="sub">
-            <h2 class="paragraf">Explore our <br> <span class="text">new chocolate</span> first!</h2>
-            <form name="call-back" autocomplete="on" class="call-back">
-                <label class="form-field" for="email">
-                    <input class="form-input" type="email" name="email" required
-                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder=" ">
-                    <span class="form-name">Enter your email</span></label>
-                <button type="submit" class="btn-send">Subscribe</button>
-            </form>
-        </div>
-
+<div class="backdrop-sub is-hidden sub-data-modal">
+  <div class="modal-sub">
+    <button class="btn sub-data-modal-close" type="button">
+      <svg class="icon" width="12" height="12">
+        <use href="/images/all-icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="wrapper"></div>
+    <div class="sub">
+      <h2 class="paragraf">
+        Explore our <br />
+        <span class="text">new chocolate</span> first!
+      </h2>
+      <form name="call-back" autocomplete="on" class="call-back">
+        <label class="form-field" for="email">
+          <input
+            id="email"
+            class="form-input"
+            type="email"
+            name="email"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            placeholder=" "
+          />
+          <span class="form-name">Enter your email</span></label
+        >
+        <button type="submit" class="btn-send">Subscribe</button>
+      </form>
     </div>
+  </div>
 </div>

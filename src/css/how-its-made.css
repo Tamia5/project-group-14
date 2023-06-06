@@ -114,6 +114,8 @@
 .production-process {
   max-width: 335px;
   padding: 20px 14px;
+  background: #FFFFFF;
+  border-radius: 15px;
 }
 @media only screen and (min-width: 768px) {
   .production-process {

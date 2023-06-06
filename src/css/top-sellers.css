@@ -116,16 +116,24 @@
 
 .top-sallers-item .pict{
 	border-radius: 15px;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+
+	width: 335px;
+	height: 464px;
 }
 @media only screen and (min-width: 768px) {
 	.top-sallers-item .pict{
-		/* width: 344px;  */
+		width: 344px;  
 		margin-bottom: 32px;
   }
 }
+@media only screen and (min-width: 1200px) {
+	.top-sallers-item .pict{
+		width: 368px;  
+  }
+}
 
-.bay-now-button{
+.buy-now-button{
 	display: block;
 	margin: 0px auto;
 
@@ -148,14 +156,14 @@
 	transition-property: background-color, color;
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.bay-now-button:hover,
-.bay-now-button:focus{
+.buy-now-button:hover,
+.buy-now-button:focus{
 	background-color: #FCF1E0;
 	color: #FD9222;
 }
 
 @media only screen and (min-width: 768px) {
-	.bay-now-button{
+	.buy-now-button{
 		position: absolute;
 
 		top: 574px;
