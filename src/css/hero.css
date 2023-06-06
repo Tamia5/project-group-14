@@ -249,6 +249,7 @@
 
 .scroll {
   cursor: pointer;
+  
 }
 
 .scroll-box {
@@ -273,7 +274,7 @@
   align-items: center;
   border: none;
   padding: 6px;
-
+  
   border-radius: 50%;
 
   background: #ffffff;
