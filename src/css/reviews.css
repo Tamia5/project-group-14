@@ -61,10 +61,6 @@
     position: relative;
     display: flex;
     gap: 20px;
-
-    /* display: flex;
-    gap: 28px;
-    text-align: center; */
 }
 .review-item {
     /* display: flex;
@@ -129,3 +125,6 @@
     color: #FFFFFF;
     background-color: #FD9222;
 }
+
+
+/*=====  swiper  ======*/
