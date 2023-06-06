@@ -23,6 +23,9 @@ var swiper1 = new Swiper('.swiper1', {
       slidesPerView: 4,
       spaceBetween: 18
     }
+  },
+  autoplay: {
+    delay: 5000,
   }
 });
 

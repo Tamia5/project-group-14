@@ -55,7 +55,7 @@ section our product ==================== */
 
 @media screen and (min-width: 768px) {
   .prod-thumb {
-    overflow: visible;
+    overflow: hidden;
   }
   
 }
