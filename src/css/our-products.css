@@ -104,7 +104,6 @@ section our product ==================== */
 }
 
 .prod-price {
-	align-self: center;
 	width: 94px;
 
 	padding-top: 8px;
@@ -112,31 +111,15 @@ section our product ==================== */
 
 	margin: 0 auto;
 
-
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 1.2;
 	color: var(--black);
 	text-transform: uppercase;
 
-	text-align: center;
-
-
 	background: var(--background);
 	border: 1px solid rgba(17, 17, 17, 0.1);
 	border-radius: 100px;
-
-	cursor: pointer;
-
-	transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.prod-price-btn:hover {
-	background: #fcf1e0;
-	border-color: rgba(253, 146, 34, 0.1);
-	color: var(--accent);
-
 }
 
 /* ------------------slider--------------- */
